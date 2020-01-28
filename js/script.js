@@ -26,8 +26,8 @@ for(let activeLink of activeLinks){
   const articleSelektor = clickkedElement.getAttribute('href');
   console.log(articleSelektor);
   /* find the correct article using the selector (value of 'href' attribute) */
-const targetArticle = document.querySelector(articleSelektor);
-console.log(targetArticle);
+  const targetArticle = document.querySelector(articleSelektor);
+  console.log(targetArticle);
 
   /* add class 'active' to the correct article */
   targetArticle.classList.add('active');
